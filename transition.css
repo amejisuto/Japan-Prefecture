@@ -1,0 +1,31 @@
+h1 , p{
+    text-align: center;
+}
+div{
+    margin: 20px 240px;
+}
+
+.TALL1{
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+}
+
+.TALL2{
+    position: absolute;
+    top: 20%;
+    color: #0000ff;
+    z-index: 1;
+}
+
+th{
+    font-size: 30px;
+    width: 200px;
+    transition-duration: 3s;
+    transition-property: opacity;
+    background-color: white;
+}
+
+th:hover {
+    opacity: 0;
+}
